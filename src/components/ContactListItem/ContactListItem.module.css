@@ -1,0 +1,22 @@
+.contact {
+  display: flex;
+  font-weight: bold;
+  font-size: 20px;
+  gap: 8px;
+  align-items: center;
+}
+
+.contact > button {
+  height: 24px;
+  font-weight: bolder;
+  background-color: rgb(226, 155, 155);
+  border-radius: 4px;
+}
+
+.contact > button:hover {
+  cursor: pointer;
+}
+
+.contact > button:active {
+  background-color: rgb(216, 62, 62);
+}
